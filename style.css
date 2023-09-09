@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 7px;
+}
+
+body {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	text-align: center;
+	background-color: #333;
+	color: antiquewhite;
+}
+
+a{
+	text-decoration: none;
+}
+
+.button{
+	border: #333;
+	padding: 1.3rem;
+	background-color: #333;
+	color: #ffffff;
+	width: auto;
+	transition: all 0.8s;
+}
+
+.button:hover{
+	border: #333;
+	background-color: rgb(175, 175, 175);
+    color:#333;
+}
+
+#section-a {
+	background-color: rgb(114, 110, 107);
+	color: #f7f7f7;
+	padding: 3.2rem 0;
+}
+
+p{
+	padding: 1.6rem 0;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	height: 46rem;
+}
+
+header .bg-image{
+	position: absolute;
+	background-image: url(images/manzara3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 46rem;
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+header h1{
+	padding: 12rem;
+	text-shadow: 2px 2px #252222;
+	padding-bottom: 0;
+	transition: 700ms ease;
+}
+h1:hover{
+	font-variation-settings: "wght" 582;
+	font-size: 4rem;
+	letter-spacing: 1px;
+}
+
+#section-b{
+	padding: 3rem;
+}
+
+#section-b ul{
+	list-style: none;
+}
+
+#section-b li{
+	margin-bottom: 1.5rem;
+}
+
+.col-content{
+	padding: 1.5rem;
+}
+
+#section-c{
+	background-color: rgb(114, 110, 107);
+	color: #ffffff;
+	padding: 5rem;
+}
+
+#section-d .box{
+	padding: 5rem;
+
+}
+
+#section-d .box:first-child{
+	background-color: darkslategrey;
+}
+
+footer{
+	padding: 4rem;
+	background-color: black;
+}
+
+footer a{
+	color: yellowgreen;
+}
+
+@media screen and (min-width:800px) {
+	html{
+		font-size: 9px;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	html{
+		font-size: 12px;
+	}
+
+	#section-b li{
+		width: 28%;
+		margin: 1%;
+		display: inline-block;
+	}
+
+	.box {
+		width: 50%;
+		float: left;
+	}
+}
